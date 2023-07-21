@@ -1,6 +1,6 @@
-Recently Forked -- Work in Progress
+Recently Forked from Xamarin.Forms.Google.Maps.Bindings -- Work in Progress
 
-This is because developers can't take the time because of private changes. If you are a new user, please consider fork and managing it yourself.
+If you'd like to pitch in, please submit pull requests
 
 # ![](logo.png) Maui.GoogleMaps.Bindings
 
