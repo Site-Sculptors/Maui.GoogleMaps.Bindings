@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0-android;net7.0-ios</TargetFrameworks>
+    <DebugType>full</DebugType>
+    <Product>Maui.GoogleMaps.Bindings</Product>
+    <Title>Maui.GoogleMaps.Bindings</Title>
+    <Authors>Billy Martin, Atsushi Nakamura, amay077</Authors>
+    <Company>Site Sculptors, Atsushi Nakamura, amay077</Company>
+    <PackageProjectUrl>https://github.com/Site-Sculptors/Maui.GoogleMaps.Bindings</PackageProjectUrl>
+    <Description>MVVM(Bindings) Support Library for Maui.GoogleMaps.</Description>
+    <PackageReleaseNotes>https://github.com/Site-Sculptors/Maui.GoogleMaps.Bindings/releases</PackageReleaseNotes>
+    <Copyright>Copyright 2017 - 2021 nuits.jp</Copyright>
+    <PackageTags>maui maps mauimaps maui.maps google googlemap</PackageTags>
+    <Version>3.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>nuits.jp.128x128.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Site-Sculptors/Maui.GoogleMaps.Bindings</RepositoryUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" /> -->
+    <!-- <PackageReference Include="Maui.GoogleMaps" Version="3.1.0" /> -->
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\nuits.jp.128x128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="Microsoft.Maui.Graphics">
+      <Version>7.0.92</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
+    <PackageReference Include="Onion.Maui.GoogleMaps">
+      <Version>5.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-ios'">
+    <PackageReference Include="Onion.Maui.GoogleMaps">
+      <Version>5.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
