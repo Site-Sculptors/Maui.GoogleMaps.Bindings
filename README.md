@@ -1,8 +1,8 @@
-This maintenance is currently suspended.
+Recently Forked from Xamarin.Forms.Google.Maps.Bindings -- Work in Progress
 
-This is because developers can't take the time because of private changes. If you are a new user, please consider fork and managing it yourself.
+If you'd like to pitch in, please submit pull requests
 
-# ![](logo.png) Xamarin.Forms.GoogleMaps.Bindings
+# ![](logo.png) Maui.GoogleMaps.Bindings
 
 [Japanese Documents](https://github.com/nuitsjp/Xamarin.Forms.GoogleMaps.Bindings/blob/master/README-ja.md)
 
